@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+    color: white;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    object-fit: contain;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: end;
+    flex-grow: 5;
+}
+
+.Menu {
+    background-color: black;
+    width: 6em;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.imglogo {
+    display: flex;
+    flex-grow: 0.5;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgcasa {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+}
+
+#backgroundMovie {
+    width: 100%;
+    object-fit: cover;
+}
+
+main {
+    display: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.footer {
+    background-color: black;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+
+}
+
+.movieList {
+    display: flex;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+
+.Titlebox {
+    width: 200px;
+    height: 100px;
+    margin-top: 40%;
+    margin-right: 80%;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    z-index: 2;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.571);
+    position: absolute;
+    align-items: center;
+    border-radius: 10%;
+    
+
+}
+.rubrik {
+    font-family: 'Times New Roman', Times, serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    
+}
